@@ -1,0 +1,21 @@
+{
+  "rules": {
+    "@next/next/no-img-element": "off",
+    "react/prop-types": "off",
+    "react/display-name": 0
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:jest/recommended",
+    "eslint-config-prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 7,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true
+    }
+  }
+}

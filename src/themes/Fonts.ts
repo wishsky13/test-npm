@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Metrics from "./Metrics";
+import styled from 'styled-components';
+import Metrics from './Metrics';
 
 export const type = {
   base: '"PingFang TC", -apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Oxygen, Ubuntu, "Open Sans", "Helvetica Neue","Noto Sans TC","微軟正黑體", sans-serif',
@@ -181,7 +181,7 @@ const Fonts = {
     line-height: 28px;
   `,
   T1: () => styled.p`
-    font-family: ${"Quantico," + type.base};
+    font-family: ${'Quantico,' + type.base};
     margin: 0;
     font-size: 48px;
     font-weight: 700;
@@ -194,7 +194,7 @@ const Fonts = {
     }
   `,
   T2: () => styled.p`
-    font-family: ${"Quantico," + type.base};
+    font-family: ${'Quantico,' + type.base};
     margin: 0;
     font-size: 32px;
     font-weight: 700;
@@ -207,7 +207,7 @@ const Fonts = {
     }
   `,
   T3: () => styled.p`
-    font-family: ${"Quantico," + type.base};
+    font-family: ${'Quantico,' + type.base};
     margin: 0;
     font-size: 24px;
     font-weight: 700;
@@ -219,7 +219,7 @@ const Fonts = {
     }
   `,
   T4: () => styled.p`
-    font-family: ${"Quantico," + type.base};
+    font-family: ${'Quantico,' + type.base};
     margin: 0;
     font-size: 18px;
     font-weight: 700;

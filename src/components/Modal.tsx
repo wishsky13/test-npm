@@ -4,7 +4,7 @@ import { Button, Dialog, Stack, IconButton, CircularProgress } from '@mui/materi
 
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
-import React = require('react');
+import React from "react";
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
 type IModal = {
@@ -145,7 +145,7 @@ const Modal = (props: IModal) => {
       }
     >
       <Wrapper className={props.className}>
-        {props?.disabledCloseButton != true && (
+        {props?.disabledCloseButton !== true && (
           <IconButton
             aria-label="delete"
             size="large"

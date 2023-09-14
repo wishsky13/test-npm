@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { confirmable, createConfirmation } from '../utilities/modal';
 import Modal from './Modal';
-import React = require('react');
+import React from 'react';
 
 type IModalF = {
   show: boolean;
@@ -26,7 +26,6 @@ type IModalF = {
   disabledCloseButton?: boolean; // arguments of your confirm function
 };
 
-// eslint-disable-next-line react/display-name
 const ModalF = (props: IModalF) => {
   const [isLoading, setIsLoading] = useState(false);
 
@@ -68,6 +67,8 @@ const ModalF = (props: IModalF) => {
     />
   );
 };
+
+export { ModalF };
 
 export function confirm(confirmation: any) {
   return createConfirmation(confirmable(ModalF))({
